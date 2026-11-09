@@ -1,5 +1,6 @@
 name: Publish Package 📦 to  PyPI
 on:
+  workflow_dispatch:
   release:
     types: [published] # with prerelease and release
 
